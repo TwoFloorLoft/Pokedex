@@ -1,6 +1,7 @@
 // List of Pokemons
 
-let pokemonList = [
+let pokemonRepository = (function () {
+  let pokemonList = [
   {
     name: "Vulpix",
     height: " 0.6",
@@ -32,13 +33,18 @@ let pokemonList = [
   }
 ];
 
-//a loop with each pokemon name and their respective height
-//a label if a pokemon is bigger than 1.5
+  function getAll () {
+    return pokemonList;
+  } //returns Pokemon List
 
-for (let i = 0; i < pokemonList.length; i++) {
-  if (pokemonList[i].height > 1.5) {
-    document.write('<p>' + pokemonList[i].name + ' (height:' + pokemonList[i].height + ')' + ' -Wow that is big! </p>');
-  } else {
-    document.write('<p>' + pokemonList[i].name + ' (height:' + pokemonList[i].height + ')' + '</p>');
-  }
-}
+  function add(pokemon) {
+    pokemonList.push(pokemon);
+  } //add pokemons
+
+  return {
+    add: add,
+    getAll: getAll
+  };
+})();
+
+document.write( pokemonRepository.getAll() );
