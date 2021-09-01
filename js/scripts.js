@@ -33,7 +33,7 @@ let pokemonRepository = (function () {
   }
 ];
 
-  function getAll () {
+  function getAll() {
     return pokemonList;
   } //returns Pokemon List
 
@@ -47,4 +47,7 @@ let pokemonRepository = (function () {
   };
 })();
 
-document.write( pokemonRepository.getAll() );
+// forEach() Loop of the pokemonRepository
+pokemonRepository.getAll().forEach(function(pokemon) {
+  document.write(pokemon.name + " " + pokemon.height + " " + pokemon.type);
+});
