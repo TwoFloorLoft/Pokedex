@@ -92,7 +92,7 @@ let pokemonRepository = (function() {
 
   //Modal Image
   let myImage = document.createElement('img');
-  myImage.src = pokemon.ImagePath;
+  myImage.src = pokemon.imageUrl;
 
   modal.appendChild(closeButtonElement);
   modal.appendChild(titleElement);
