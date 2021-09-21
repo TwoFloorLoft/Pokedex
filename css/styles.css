@@ -62,6 +62,12 @@ body {
   text-decoration: underline;
 }
 
+.modal img {
+    float: left;
+    width: 200px;
+    margin-right: 40px;
+}
+
 .modal h1 {
   margin-top: 0;
 }
