@@ -1,8 +1,3 @@
-:root {
-    --Azure: #FFFFFF;
-    --padding: 20px;
-}
-
 body {
     background-color: var(--Azure);
     font-family: 'Source Sans Pro', sans-serif;
@@ -12,11 +7,6 @@ body {
     line-height: 1.6;
     /* Sets the line-height to 1.6 */
     padding : var(--padding);
-}
-
-h1 {
-  color: white;
-  font-family: 'Bangers', cursive;
 }
 
 .pokemon-list {
