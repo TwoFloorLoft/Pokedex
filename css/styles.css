@@ -1,112 +1,82 @@
-.button-class {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-  background-color: white;
-  color: black;
-  border: 2px solid #4caf50;
+:root {
+    --Azure: #FFFFFF;
+    --padding: 20px;
 }
 
-html,
 body {
-  font-family: Arial, sans-serif;
-}
-
-#modal-container {
-  position: fixed;
-  padding: 20px;
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-
-  /* to show it above other content */
-  z-index: 999;
-
-  /* to allow scrolling if the screen is not high enough*/
-  overflow: auto;
-
-  /* this is used to center the modal */
-  display: grid;
-  text-align: center;
-}
-
-.modal {
-  margin: auto;
-  display: inline-block;
-  box-sizing: border-box;
-  background: #fff;
-  padding: 15px;
-  width: 100%;
-  max-width: 700px;
-  text-align: left;
-}
-
-.modal-close {
-  float: right;
-  -webkit-appearance: none;
-  border: 0;
-  background: none;
-  color: #777;
-  text-decoration: underline;
-}
-
-.modal img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.modal h1 {
-  margin-top: 0;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.modal h2 {
-  margin-top: 0;
-  text-align: center;
-}
-
-.modal p {
-  margin-bottom: 0;
-  text-align: center;
-  text-transform: capitalize;
-  width: 100%;
+    background-color: var(--Azure);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* Sets the font size to 16px */
+    line-height: 1.6;
+    /* Sets the line-height to 1.6 */
+    padding : var(--padding);
 }
 
 h1 {
-  text-align: center;
+  color: white;
+  font-family: 'Bangers', cursive;
 }
 
-ul{
-  text-align: center;
+.pokemon-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
 }
 
-p{
-  text-align: center;
+.pokemon-list li {
+  padding: 7px;
 }
 
-#modal-container {
-  display: none;
+.pokemon-button-class {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+  width: 155px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.pokemon-button-class:hover {
+  background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.pokemon-button-class:active {
+	position:relative;
+	top:1px;
 }
 
-#modal-container.is-visible {
-  /* CSS for modal container - add your own desired CSS styles here */
-  display: block;
+.modal-content {
+
+    color: white;
+    position: relative;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
-ul.pokemon-list li {
-  list-style: none;
+.nav-logo{
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-image: linear-gradient(to left, #18458b, #0064a9, #0084c3, #00a5d9, #12c5eb);
+}
+
+.container__main {
+  padding-top: 60px;
+    padding-bottom: 100px;
+
 }
