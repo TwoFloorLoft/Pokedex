@@ -8,12 +8,18 @@ Application enlists the names of Pokemon(1st Gen). CLicking individually over th
   <h2>Tech Stack</h2>
   <p>
 HTML
+  <p>
 CSS
+    <p>
 Bootstrap
+      <p>
 JavaScript
+        <p>
 jQuery
+          <p>
   <p>
 <h2>Built-up</h2>
   <p>
 Loads data from an external API.
+  <p>
 Displays the list of Pokémon from API once data is successfully loaded.
