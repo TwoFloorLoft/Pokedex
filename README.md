@@ -1,4 +1,4 @@
-<h1>Pokédex APP</h1>
+<h1>Pokédex App</h1>
 <p>
   <p>
 <h2>App description</h2>
