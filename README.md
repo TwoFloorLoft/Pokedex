@@ -3,7 +3,7 @@
   <p>
 <h2>App description</h2>
 <p>
-An Application that enlists the names of Pokemon (1st Gen.). Clicking individually over the name gives further details.
+An Application that enlists the names of the Pokémons (1st Gen.). Clicking individually over the name gives further details.
   <p>
   <h2>Tech Stack</h2>
   <p>
