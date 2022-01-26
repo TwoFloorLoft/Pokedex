@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #DAD8CF;
     font-weight: 400;
     font-size: 15px;
     /* Sets the font size to 16px */
@@ -12,7 +12,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
