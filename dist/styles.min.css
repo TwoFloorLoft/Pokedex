@@ -48,7 +48,7 @@ body {
 
 .modal-content {
 
-    color: white;
+    color: rgb(0, 0, 0);
     position: relative;
     background: #1565C0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffffff, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
