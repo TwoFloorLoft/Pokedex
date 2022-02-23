@@ -19,9 +19,6 @@ body {
 }
 
 .pokemon-list li {
-  -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
   padding: 7px;
 }
 
